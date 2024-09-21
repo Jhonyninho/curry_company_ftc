@@ -13,7 +13,6 @@ from streamlit_folium import folium_static
 from haversine import haversine
 import streamlit as st
 import PIL.Image as Img #para a logo utilizada - biblioteca de manipulaçãi de imagens
-import plotly.express as px
 #------------------------------------------------------------------------------------
 #Funções
 #------------------------------------------------------------------------------------
@@ -229,64 +228,3 @@ with tab3:
     country_maps( df1 )
    
 st.header( 'Next page' )
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-print ( 'Estou aqui' )
-
